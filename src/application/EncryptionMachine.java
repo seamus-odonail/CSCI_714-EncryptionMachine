@@ -1,10 +1,12 @@
+package application;
+
 import java.util.Scanner;
 
 /**
  * //FormattingError: h1 should be closed with /h1
  * 
- * <h1>EncryptionMachine<h1>
- * This EncryptionMachine program uses a Caesar Cipher to encrypt a users message.
+ * <h1>application.EncryptionMachine<h1>
+ * This application.EncryptionMachine program uses a Caesar Cipher to encrypt a users message.
  * <p>
  * This program works by requesting a encryption key from the user.
  * This key is encrypted using the Caesar Cipher and will allow a second party to decrypt
@@ -104,7 +106,7 @@ public class EncryptionMachine {
 		}
 		else {
 
-			//Code Review: String.format is preferrable when printing concatenated values
+			//Code Review: String.format is preferable when printing concatenated values
 			//into a string. It allows you to change locale and be i18n compliant with your
 			//messages: https://blog.udemy.com/java-format-string/
 
